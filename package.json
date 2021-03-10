@@ -1,11 +1,11 @@
 {
-  "name": "hdhs-coding-join",
+  "name": "hdhs-coding-interview",
   "version": "1.0.0",
   "description": "An Online Application Form for Heungdeok High School Coding Club.",
   "author": "Hyungyo Seo <hello@hgseo.net> (https://hgseo.net/)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hyungyoseo/hdhs-coding-join.git"
+    "url": "https://github.com/hyungyoseo/hdhs-coding-interview.git"
   },
   "license": "MIT",
   "dependencies": {

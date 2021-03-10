@@ -79,19 +79,6 @@ class Auth {
     }
     return Boolean(user);
   }
-
-  async checkPermission() {
-    const form = Firebase.firestore().collection("permissions").doc("form");
-    try {
-      const doc = await form.get();
-      if (doc.exists && doc.data()?.access === true) {
-        return true;
-      }
-    } catch (_) {
-      // Pass
-    }
-    return false;
-  }
 }
 
 export default Auth;
