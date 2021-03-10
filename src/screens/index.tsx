@@ -1,4 +1,3 @@
-export { default as Apply } from "./Apply";
-export { default as Home } from "./Home";
+export { default as MakeAppointment } from "./MakeAppointment";
 export { default as NotFound } from "./NotFound";
-export { default as SignIn } from "./SignIn";
+export { default as Succeed } from "./Succeed";
